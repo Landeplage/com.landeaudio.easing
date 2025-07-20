@@ -1,0 +1,13 @@
+{
+  "name": "com.landeaudio.easing",
+  "version": "1.0.0",
+  "displayName": "Easing Functions",
+  "description": "A Unity C# implementation of Robert Penner's easing functions.",
+  "unity": "6000.0",
+    "author": {
+        "name": "Lande Audio",
+        "email": "martin@landeaudio.com",
+        "url": "https://landeaudio.com"
+  },
+  "keywords": ["easing", "tween", "animation"]
+}

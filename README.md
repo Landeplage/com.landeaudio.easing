@@ -5,11 +5,9 @@ The main purpose of this library is procedural animation. For example showing an
 
 ## Installation
 
-In Unity, click "Install package from git URL...".
+In Unity, click "Install package from git URL..." and paste in ``https://github.com/Landeplage/com.landeaudio.easing.git``.
 
 ![Screenshot](Documentation~/installation.png)
-
-Paste in ``https://github.com/landeplage/com.landeaudio.easing``.
 
 ## Usage
 

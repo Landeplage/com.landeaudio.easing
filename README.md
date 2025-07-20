@@ -1,6 +1,8 @@
 A unity package containing a single script that lets you use the various easing functions written by [Robert Penner](https://robertpenner.com/easing/).
 C# implementation written by [C.J. Kimberlin](http://cjkimberlin.com).
 
+The main purpose of this library is procedural animation. For example showing and hiding UI elements, or animating a cash value indicator.
+
 ## Installation
 
 In Unity, click "Install package from git URL...".
@@ -11,7 +13,7 @@ Paste in ``https://github.com/landeplage/com.landeaudio.easing``.
 
 ## Usage
 
-While it is possible to use static ease functions directly, best practice is to cache the function you need and calling it like the example below.
+Serialize the easing type so you can choose an ease type in the inspector. Cache the function you need and call it like the example below.
 
 ```csharp
 using UnityEngine;
@@ -35,8 +37,8 @@ public class EaseExample : MonoBehaviour
                 t -= 1f;
         }
 
-        float ease = easeFunc(0f, 1f, t);
-        Debug.Log(ease);
+        float easedT = easeFunc(0f, 1f, t);
+        Debug.Log(easedT);
     }
 }
 ```
